@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @version 1.0
  *
  */
-class Wx_Api extends CI_Controller {
+class WxApi extends CI_Controller {
     //微信各事件的回调
     private $wx_callback_hooks = [];
     function __construct()
